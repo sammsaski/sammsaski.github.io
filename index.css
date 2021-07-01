@@ -2,16 +2,28 @@
 .container {
     display: grid;
     grid-template-areas:
+        'opening opening opening opening opening'
         'about-me about-me about-me about-me about-me'
         ' side-bar resume resume resume resume';
     gap: 50px;
 }
 
 /* container's Grid Items */
-.about-me {
-    grid-area: about-me;
+.opening {
+    grid-area: opening;
     justify-content: center;
     border: #000000 1px solid;
+}
+
+.about-me {
+    border: #000000 1px solid;
+    grid-area: about-me;
+    justify-content: center;
+    display: grid;
+    grid-template-areas:
+        'project-1'
+        'project-2'
+        'project-3';
 }
 
 .side-bar {
@@ -48,5 +60,21 @@
 
 .additional {
     grid-area: additional;
+    border: #000000 1px solid;
+}
+
+/* about-me's Grid Items */
+.project-1 {
+    grid-area: project-1;
+    border: #000000 1px solid;
+}
+
+.project-2 {
+    grid-area: project-2;
+    border: #000000 1px solid;
+}
+
+.project-3 {
+    grid-area: project-3;
     border: #000000 1px solid;
 }
