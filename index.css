@@ -2,33 +2,29 @@
 .container {
     display: grid;
     grid-template-areas:
-        'opening opening opening opening opening'
         'about-me about-me about-me about-me about-me'
         ' side-bar resume resume resume resume';
     gap: 50px;
 }
 
-/* container's Grid Items */
-.opening {
-    grid-area: opening;
-    justify-content: center;
-    border: #000000 1px solid;
-}
-
+/* 
+container's Grid Items 
+*/
 .about-me {
     border: #000000 1px solid;
     grid-area: about-me;
+    justify-content: center;
+}
+
+.side-bar {
+    grid-area: side-bar;
+    border: #000000 1px solid;
     justify-content: center;
     display: grid;
     grid-template-areas:
         'project-1'
         'project-2'
         'project-3';
-}
-
-.side-bar {
-    grid-area: side-bar;
-    border: #000000 1px solid;
 }
 
 .resume {
@@ -42,7 +38,9 @@
         'additional';
 }
 
-/* resume's Grid Items */
+/* 
+resume's Grid Items 
+*/
 .skills {
     grid-area: skills;
     border: #000000 1px solid;
@@ -63,7 +61,9 @@
     border: #000000 1px solid;
 }
 
-/* about-me's Grid Items */
+/* 
+about-me's Grid Items 
+*/
 .project-1 {
     grid-area: project-1;
     border: #000000 1px solid;
