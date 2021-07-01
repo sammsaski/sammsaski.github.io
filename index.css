@@ -1,0 +1,52 @@
+/* Grid Container */
+.container {
+    display: grid;
+    grid-template-areas:
+        'about-me about-me about-me about-me about-me'
+        ' side-bar resume resume resume resume';
+    gap: 50px;
+}
+
+/* container's Grid Items */
+.about-me {
+    grid-area: about-me;
+    justify-content: center;
+    border: #000000 1px solid;
+}
+
+.side-bar {
+    grid-area: side-bar;
+    border: #000000 1px solid;
+}
+
+.resume {
+    border: #000000 1px solid;
+    grid-area: resume;
+    display: grid;
+    grid-template-areas: 
+        'skills'
+        'education'
+        'experience'
+        'additional';
+}
+
+/* resume's Grid Items */
+.skills {
+    grid-area: skills;
+    border: #000000 1px solid;
+}
+
+.education {
+    grid-area: education;
+    border: #000000 1px solid;
+}
+
+.experience {
+    grid-area: experience;
+    border: #000000 1px solid;
+}
+
+.additional {
+    grid-area: additional;
+    border: #000000 1px solid;
+}
