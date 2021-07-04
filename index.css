@@ -3,87 +3,106 @@ All elements
 */
 * {
     font-size: 100%;
-    font-family: 'Roboto', sans-serif; 
-}
-
-
+    font-family: "Ubuntu", sans-serif;
+  }
+  
 /* Grid Container */
 .container {
-    display: grid;
-    grid-template-areas:
-        'about-me about-me about-me about-me about-me'
-        ' side-bar resume resume resume resume';
-    gap: 50px;
+display: grid;
+grid-template-areas:
+    "about-me about-me about-me about-me about-me"
+    " side-bar resume resume resume resume";
+gap: 50px;
 }
 
 /* 
 container's Grid Items 
 */
 .about-me {
-    border: #000000 1px solid;
-    grid-area: about-me;
-    justify-content: center;
+border: #000000 1px solid;
+grid-area: about-me;
+justify-content: center;
+font-weight: 100;
 }
 
 .side-bar {
-    grid-area: side-bar;
-    border: #000000 1px solid;
-    justify-content: center;
-    display: grid;
-    grid-template-areas:
-        'project-1'
-        'project-2'
-        'project-3';
+grid-area: side-bar;
+border: #000000 1px solid;
+justify-content: center;
+align-content: center;
+display: grid;
+grid-template-areas:
+    "project-1"
+    "project-2"
+    "project-3";
+gap: 20px;
+position: fixed;
+top: 252px;
 }
 
 .resume {
-    border: #000000 1px solid;
-    grid-area: resume;
-    display: grid;
-    grid-template-areas: 
-        'skills'
-        'education'
-        'experience'
-        'additional';
+border: #000000 1px solid;
+grid-area: resume;
+display: grid;
+grid-template-areas:
+    "skills"
+    "education"
+    "experience"
+    "additional";
+}
+
+/*
+about-me's Grid Items
+*/
+.about-me-h3 {
+font-weight: 400;
+}
+
+.about-me-p1 {
+font-weight: 100;
 }
 
 /* 
 resume's Grid Items 
 */
 .skills {
-    grid-area: skills;
-    border: #000000 1px solid;
+grid-area: skills;
+border: #000000 1px solid;
+font-weight: 400;
 }
 
 .education {
-    grid-area: education;
-    border: #000000 1px solid;
+grid-area: education;
+border: #000000 1px solid;
 }
 
 .experience {
-    grid-area: experience;
-    border: #000000 1px solid;
+grid-area: experience;
+border: #000000 1px solid;
 }
 
 .additional {
-    grid-area: additional;
-    border: #000000 1px solid;
+grid-area: additional;
+border: #000000 1px solid;
 }
 
 /* 
-about-me's Grid Items 
+side-bar's Grid Items 
 */
 .project-1 {
-    grid-area: project-1;
-    border: #000000 1px solid;
+grid-area: project-1;
+border: #000000 1px solid;
+font-weight: 400;
 }
 
 .project-2 {
-    grid-area: project-2;
-    border: #000000 1px solid;
+grid-area: project-2;
+border: #000000 1px solid;
+font-weight: 400;
 }
 
 .project-3 {
-    grid-area: project-3;
-    border: #000000 1px solid;
+grid-area: project-3;
+border: #000000 1px solid;
+font-weight: 400;
 }

@@ -2,81 +2,119 @@
 <html>
   <!-- Header -->
   <head>
-    <link href="./index.css" type="text/css" rel="stylesheet">
+    <link href="./src/styles.css" type="text/css" rel="stylesheet" />
 
-    <!-- Roboto Regular 400 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-    <!-- Roboto Bold 700 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Smaller Logo -->
   </head>
 
   <!-- Body -->
   <body>
-    <div class='container'>
+    <div class="container">
       <!-- Logo -->
-    
+
       <!-- Nav Bar -->
-      <div class='side-bar'>This is the side bar.
-        <div class='project-1'><strong>Project 1</strong></div>
-        <div class='project-2'><strong>Project 2</strong></div>
-        <div class='project-3'><strong>Project 3</strong></div>
+      <div class="side-bar">
+        This is the side bar.
+        <div class="project-1">Project 1</div>
+        <div class="project-2">Project 2</div>
+        <div class="project-3">Project 3</div>
       </div>
 
       <!-- 1. About Me -->
-      <div class='about-me'>
-        <h2><strong>Hi, my name is Samuel Sasaki.</strong></h2>
-        <p>
-          I'm currently a rising senior at Pomona College double majoring in Computer Science + Mathematics.
-          Since finishing my first ever programming class about a year and half ago, I have made it my goal to acquire the skills
-          necessary to architect and develop any software project from start to finish with no other help. More than anything, I love building
-          things and don't want to be kept from building something because I haven't taken the time to learn how to build it properly.
-          On my path of learning about programming languages, concepts, and tools, I have picked up an interest in software architecture and DevOps
+      <div class="about-me">
+        <h3 class="about-me-h3">Hi, my name is Samuel Sasaki.</h3>
+        <p class="about-me-p1">
+          I'm currently a rising senior at Pomona College double majoring in
+          Computer Science + Mathematics. Since finishing my first ever
+          programming class about a year and half ago, I have made it my goal to
+          acquire the skills necessary to architect and develop any software
+          project from start to finish with no other help. More than anything, I
+          love building things and don't want to be kept from building something
+          because I haven't taken the time to learn how to build it properly. On
+          my path of learning about programming languages, concepts, and tools,
+          I have picked up an interest in software architecture and DevOps
           models.
         </p>
       </div>
 
       <!-- 2. Resume + Additional Info -->
-      <div class='resume'>
-        
+      <div class="resume">
         <!-- Skills -->
-        <div class='skills'>
-          <h2 class='skills-header'><strong>Skills</strong></h2>
+        <div class="skills">
+					<div class="skills-header">Skills</div>
+					<div class='skills-list'>
+						<div class='programming-languages'>Programming Languages
+							<ul>
+								<li>Python</li>
+								<li>Java</li>
+								<li>JavaScript</li>
+							</ul>
+						</div>
+						<div class='web-stack'>Web Dev Tech Stack</div>
+							<ul>
+								<li>HTML & CSS</li>
+								<li>Django</li>
+								<li>PostgreSQL</li>
+							</ul>
+						<div class='devops-stack'>DevOps Stack</div>
+						<ul>
+							<li>Docker</li>
+							<li>Ansible</li>
+							<li>CircleCI</li>
+							<li>Web Scraping</li>
+							<li>AWS</li>
+						</ul>
+					</div>
         </div>
 
         <!-- Education -->
-        <div class='education'>
-          <h2 class='education-header'><strong>Education</strong></h2>
+        <div class="education">
+					<div class="education-header">Education</div>
+					<ul>
+						<li>Pomona College: Double major in CS + Mathematics; 3.34 GPA</li>
         </div>
 
         <!-- Experience -->
-        <div class='experience'>
-          <h2 class='experience-header'><strong>Experience</strong></h2>
-        </div>
+        <div class="experience">
+					<div class="experience-header">Experience</div>
+					<div class='elementary-experience'>Software Engineer Intern @ Elementary Robotics (May 2021-Present)</div>
+					<ul>
+						<li>Refactored parts of the codebase to improve DRY</li>
+						<li>Added flexibility to their testing codebase by adding a feature so that multiple testing configurations could be run at a time.</li>
+						<li>Provided coverage statistics for a multitude of repositories for multiple teams.</li>
+					</ul>
+					<div class='altru-experience'>Co-Founder & Head of Software @ Altru Listings LLC (March 2020-Present)</div>
+					<ul>
+						<li>Joined in the first month of the company's creation and am responsible for every line of code that has been written. First worked on developing a simple web scraper to extract data and then developed an algorithm to compare all of the data captured.</li>
+						<li>Currently, working on designing and architecting the product in the form of a Django web application.</li>
+					</ul>
+					<div class='pomona-experience'>Research Assistant @ Pomona College (September 2020-December 2020)</div>
+					<ul>
+						<li>Worked on developing a tutorial for using pointer analysis.</li>
+					</ul>
+				</div>
+				
 
         <!-- Additional -->
-        <div class='additional'>
-          <h2 class='additional-header'><strong>Additional</strong></h2>
+        <div class="additional">
+          <div class="additional-header">Additional</div>
         </div>
       </div>
-    
     </div>
     <!-- End of Body Content -->
-
   </body>
 
   <!-- Footer -->
   <footer>
     <!-- Contact Info -->
-
   </footer>
 
   <!-- Nav Bar (right side) -->
-  
 </html>
