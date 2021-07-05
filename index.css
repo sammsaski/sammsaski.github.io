@@ -1,48 +1,136 @@
-/*
-All elements
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+/**
+* All elements
 */
-* {
-    font-size: 100%;
-    font-family: "Ubuntu", sans-serif;
-  }
-  
-/* Grid Container */
-.container {
-    display: grid;
-    grid-template-areas:
-        "about-me about-me about-me about-me about-me"
-        " side-bar resume resume resume resume";
-    gap: 50px;
+html {
+    background: #171717;
 }
 
-/* 
-container's Grid Items 
+* {
+    font-size: 100%;
+    /* font-family: "Ubuntu", sans-serif;*/
+    font-family: 'Source Code Pro', monospace;
+    color: #fbf7f5;
+  }
+  
+/**
+* Front Page
+*/
+.front-page {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    border: 3px #000000 solid;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+#text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fbf7f5;
+    letter-spacing: 2px;
+    border: 3px #000000 solid;
+}
+
+#cursor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 50px;
+    background-color: #171717;
+    animation: blink .5s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #fbf7f5;
+    }
+}
+
+/**
+* Side Bar
+*/
+.side-bar {
+    border: #000000 1px solid;
+    justify-content: center;
+    align-content: top;
+    position: fixed;
+    height: 100vh;
+    width: 10%;
+    font-size: 17.5px;
+}
+
+/**
+* side-bar's Items 
+*/
+
+.side-bar > * {
+    display: block;
+    margin-top: 30px;
+}
+
+.side-bar > *:first-child {
+    margin-top: 0px;
+}
+
+.project-1 {
+    grid-area: project-1;
+    border: #000000 1px solid;
+    font-weight: 400;
+}
+
+.project-2 {
+    grid-area: project-2;
+    border: #000000 1px solid;
+    font-weight: 400;
+}
+
+.project-3 {
+    grid-area: project-3;
+    border: #000000 1px solid;
+    font-weight: 400;
+}
+
+
+/** 
+* Grid Container 
+*/
+.container {
+    border: 1px red solid;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 20%;
+}
+
+
+/**
+* container's Grid Items 
 */
 .about-me {
     border: #000000 1px solid;
-    grid-area: about-me;
     justify-content: center;
     font-weight: 100;
-}
-
-.side-bar {
-    grid-area: side-bar;
-    border: #000000 1px solid;
-    justify-content: center;
-    align-content: center;
-    display: grid;
-    grid-template-areas:
-        "project-1"
-        "project-2"
-        "project-3";
-    gap: 20px;
-    position: fixed;
-    top: 252px;
+    margin: auto;
 }
 
 .resume {
     border: #000000 1px solid;
-    grid-area: resume;
     display: grid;
     grid-template-areas:
         "skills"
@@ -51,8 +139,8 @@ container's Grid Items
         "additional";
 }
 
-/*
-about-me's Grid Items
+/**
+* about-me's Grid Items
 */
 .about-me-h3 {
     font-weight: 400;
@@ -62,8 +150,8 @@ about-me's Grid Items
     font-weight: 100;
 }
 
-/* 
-resume's Grid Items 
+/** 
+* resume's Grid Items 
 */
 .skills {
     grid-area: skills;
@@ -86,23 +174,3 @@ resume's Grid Items
     border: #000000 1px solid;
 }
 
-/* 
-side-bar's Grid Items 
-*/
-.project-1 {
-    grid-area: project-1;
-    border: #000000 1px solid;
-    font-weight: 400;
-}
-
-.project-2 {
-    grid-area: project-2;
-    border: #000000 1px solid;
-    font-weight: 400;
-}
-
-.project-3 {
-    grid-area: project-3;
-    border: #000000 1px solid;
-    font-weight: 400;
-}

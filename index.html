@@ -13,21 +13,35 @@
 
   <!-- Body -->
   <body>
-    <div class="container">
-      <!-- Logo -->
-
-      <!-- Nav Bar -->
-      <div class="side-bar">
-        This is the side bar.
-        <div class="project-1">Project 1</div>
-        <div class="project-2">Project 2</div>
-        <div class="project-3">Project 3</div>
+    <!-- Nav Bar -->
+    <div class="side-bar">
+      
+      <div class="project-1">
+        Project 1
+      </div>
+      
+      <div class="project-2">
+        Project 2
       </div>
 
-      <!-- 1. About Me -->
+      <div class="project-3">
+        Project 3
+      </div>
+    </div>
+
+    <!-- Front Page -->
+    <div class="front-page">
+      <div class=text-container>
+        <div id="text"></div>
+        <div id="cursor"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- About Me -->
       <div class="about-me">
-        <h3 class="about-me-h3">Hi, my name is Samuel Sasaki.</h3>
-        <p class="about-me-p1">
+        <h1 class="hello" id="typewriter-hello">Hi, my name is Samuel Sasaki.</h1>
+        <p class="about-me" id="typewriter-about">
           I'm currently a rising senior at Pomona College double majoring in
           Computer Science + Mathematics. Since finishing my first ever
           programming class about a year and half ago, I have made it my goal to
@@ -40,6 +54,8 @@
           models.
         </p>
       </div>
+
+      <!-- Logo -->
 
       <!-- 2. Resume + Additional Info -->
       <div class="resume">
@@ -76,6 +92,20 @@
 					<div class="education-header">Education</div>
 					<ul>
 						<li>Pomona College: Double major in CS + Mathematics; 3.34 GPA</li>
+            <li>Relevant Coursework Completed:</li>
+            <ul>
+              <li>Linear Algebra</li>
+              <li>Number Theory & Cryptograph</li>
+              <li>Discrete Math & Functional Programming</li>
+              <li>Data Structures & Advanced Programming</li>
+              <li>Introduction to Computational Theory</li>
+            </ul>
+            <li>Relevant Coursework To Be Completed:</li>
+            <ul>
+              <li>Algorithms</li>
+              <li>Computer Architecture & Design</li>
+              <li>Probability</li>
+            </ul>
         </div>
 
         <!-- Experience -->
@@ -102,6 +132,10 @@
         <!-- Additional -->
         <div class="additional">
           <div class="additional-header">Additional</div>
+          <div class="additional-waterpolo">Pomona-Pitzer Varsity Men's Water Polo</div>
+          <ul>
+            <li>SCIAC Champions in 2018 and was honored with a First-Team All-SCIAC selection.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -114,4 +148,9 @@
   </footer>
 
   <!-- Nav Bar (right side) -->
+
+  <!-- Java Script -->
+  <div id="javascript">
+    <script type="text/javascript" src="typewriter.js"></script>
+  </div>
 </html>
