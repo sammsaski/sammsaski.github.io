@@ -1,0 +1,12 @@
+To update the contents of the website, you must edit the `index.md` file using markdown.
+
+To do:
+- Figure out the other headings / pages.
+    - News
+    - Publications
+    - Selected Publications
+    - Projects
+    - Blog
+    - Education
+    - Resume
+- Figure out a system for structuring + automatically parsing from another file. This way, I can just record the information in one place and have it automatically populate the website.
