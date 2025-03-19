@@ -22,7 +22,6 @@ title: Samuel Sasaki
 logo: assets/headshot.jpg
 email: samuel.sasaki@vanderbilt.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Email: samuel.sasaki@vanderbilt.edu 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
