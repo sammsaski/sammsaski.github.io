@@ -1,9 +1,5 @@
 # About
-I'm a second-year computer science Ph.D. student working under the advisory of Dr. Taylor T. Johnson in the VeriVITAL lab.
-I am primarily focused on developing new techniques in computer-aided verification for machine learning-based systems,
-particularly those systems which analyze images, videos, or other high-dimensional data. I also have a growing interest in    working with numerical methods and scientific software.
-
-If anyone is interested about my work or in collaborating, please do not hesitate to reach out!
+I'm a second-year computer science Ph.D. student working under the advisory of Dr. Taylor T. Johnson in the VeriVITAL lab. I am primarily focused on developing new techniques in computer-aided verification for machine learning-based system, particularly those systems which analyze images, videos, or other high-dimensional data. I also have a growing interest in working with numerical methods and scientific software.
 
 **Contact:** samuel.sasaki@vanderbilt.edu
 
@@ -16,8 +12,7 @@ If anyone is interested about my work or in collaborating, please do not hesitat
 
 **Teaching assistant for the *Embedded Systems* course at Vanderbilt University in Spring 2024.** Responsibilities included leading weekly lab sections in which students would work through assignments, managing distribution of equipment, and grading assignments.
 
-### Reviewing
-...
-
+<!-- ### Reviewing
+... -->
 
 
