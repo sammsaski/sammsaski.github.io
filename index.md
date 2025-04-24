@@ -4,7 +4,7 @@ I'm a second-year computer science Ph.D. student working under the advisory of D
 **Contact:** samuel.sasaki@vanderbilt.edu
 
 ## Publications
-1. **[FormaliSE'25]** Samuel Sasaki, Preston K. Robinette, Diego Manzanas Lopez, Taylor T. Johnson. Robustness Verification of Video Verification Neural Networks. 2025 IEEE/ACM 13th International Conference on Formal Methods in Software Engineering (Formalise'25), April 27-28, 2025, Ottawa, Canada. 31% Acceptance Rate (15/38).
+1. **[FormaliSE'25]** Samuel Sasaki, Preston K. Robinette, Diego Manzanas Lopez, Taylor T. Johnson. Robustness Verification of Video Verification Neural Networks. 2025 IEEE/ACM 13th International Conference on Formal Methods in Software Engineering (Formalise'25), April 27-28, 2025, Ottawa, Canada. 31% Acceptance Rate (15/48).
 
 ## Service
 ### Teaching
