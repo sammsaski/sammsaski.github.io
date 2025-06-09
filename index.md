@@ -11,7 +11,7 @@ I'm a second-year computer science Ph.D. student working under the advisory of D
 ## Service
 
 ### Reviewing
-[QEST+FORMATS'25] Member of the artifact evaluate commmittee.
+**[QEST+FORMATS'25]** Member of the artifact evaluate commmittee.
 
 ### Teaching
 **Teaching assistant for the *Introduction to Engineering - Computer Science* course at Vanderbilt University in Fall 2023.** Responsibilities included holding office hours, grading assignments, and assisting in-class activities.
