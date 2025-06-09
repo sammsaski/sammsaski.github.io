@@ -9,6 +9,10 @@ I'm a second-year computer science Ph.D. student working under the advisory of D
 1. **[FormaliSE'25]** Samuel Sasaki, Preston K. Robinette, Diego Manzanas Lopez, Taylor T. Johnson. Robustness Verification of Video Verification Neural Networks. 2025 IEEE/ACM 13th International Conference on Formal Methods in Software Engineering (FormaliSE'25), April 27-28, 2025, Ottawa, Canada. 31% Acceptance Rate (15/48).
 
 ## Service
+
+### Reviewing
+[QEST+FORMATS'25] Member of the artifact evaluate commmittee.
+
 ### Teaching
 **Teaching assistant for the *Introduction to Engineering - Computer Science* course at Vanderbilt University in Fall 2023.** Responsibilities included holding office hours, grading assignments, and assisting in-class activities.
 
