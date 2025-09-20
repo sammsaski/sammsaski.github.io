@@ -4,13 +4,15 @@ I'm a third-year computer science Ph.D. student working under the advisory of Dr
 **Contact:** samuel.sasaki@vanderbilt.edu
 
 ## Publications
-4. **[NeurIPS'25]** Navid Hashemi, Samuel Sasaki, Ipek Oguz, Meiyi Ma, Taylor T. Johnson. Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks. The 39th Annual Conference on Neural Information Processing Systems (NeurIPS'25), December 2-7, 2025, San Dieog, California.
+<ol reversed>
+    <li>**[NeurIPS'25]** Navid Hashemi, Samuel Sasaki, Ipek Oguz, Meiyi Ma, Taylor T. Johnson. Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks. The 39th Annual Conference on Neural Information Processing Systems (NeurIPS'25), December 2-7, 2025, San Dieog, California.</li>
 
-3. **[ESORICS'25]** Preston Robinette, Thuy Dung Nguyen, Samuel Sasaki. Taylor T. Johnson. Trigger-Based Fragile Model Watermarking for Image Transformation Networks. 30th European Symposium on Research in Computer Security (ESORICS'25), September 22-26, 2025, Toulouse France.
+    <li>**[ESORICS'25]** Preston Robinette, Thuy Dung Nguyen, Samuel Sasaki. Taylor T. Johnson. Trigger-Based Fragile Model Watermarking for Image Transformation Networks. 30th European Symposium on Research in Computer Security (ESORICS'25), September 22-26, 2025, Toulouse France.</li>
 
-2. **[NeuS'25]** Samuel Sasaki, Diego Manzanas Lopez, Taylor T. Johnson. Neurosymbolic Finite and Pushdown Automata: Improved Multimodal Reasoning versus Vision Language Models (VLMs). 2nd International Conference on Neuro-symbolic Systems (NeuS'25), May 28-30, 2025, Philadelphia, Pennsylvania.
+    <li>**[NeuS'25]** Samuel Sasaki, Diego Manzanas Lopez, Taylor T. Johnson. Neurosymbolic Finite and Pushdown Automata: Improved Multimodal Reasoning versus Vision Language Models (VLMs). 2nd International Conference on Neuro-symbolic Systems (NeuS'25), May 28-30, 2025, Philadelphia, Pennsylvania.</li>
 
-1. **[FormaliSE'25]** Samuel Sasaki, Preston K. Robinette, Diego Manzanas Lopez, Taylor T. Johnson. Robustness Verification of Video Classification Neural Networks. 2025 IEEE/ACM 13th International Conference on Formal Methods in Software Engineering (FormaliSE'25), April 27-28, 2025, Ottawa, Canada. 31% Acceptance Rate (15/48).
+    <li>**[FormaliSE'25]** Samuel Sasaki, Preston K. Robinette, Diego Manzanas Lopez, Taylor T. Johnson. Robustness Verification of Video Classification Neural Networks. 2025 IEEE/ACM 13th International Conference on Formal Methods in Software Engineering (FormaliSE'25), April 27-28, 2025, Ottawa, Canada. 31% Acceptance Rate (15/48).</li>
+</ol>
 
 ## Service
 
