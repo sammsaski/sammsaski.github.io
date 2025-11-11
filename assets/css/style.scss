@@ -19,8 +19,16 @@ html {
   height: 100%;
 }
 
-/* Remove "Personal website" description text */
-header p {
+/* Remove "Personal website" description text but show GitHub link */
+header p.view {
+  display: block !important;
+  text-align: center !important;
+  width: 120px !important;
+  margin-top: 10px !important;
+  font-size: 12px !important;
+}
+
+header p:not(.view) {
   display: none;
 }
 
@@ -60,11 +68,14 @@ header h1 {
   line-height: 1.2 !important;
   margin-top: 10px !important;
   order: 2 !important;
+  text-align: center !important;
+  width: 120px !important;
 }
 
 header {
   display: flex !important;
   flex-direction: column !important;
+  align-items: flex-start !important;
 }
 
 /* Remove link styling from name */
