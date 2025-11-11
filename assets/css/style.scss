@@ -29,3 +29,22 @@ a:hover {
   color: #000000;
   text-decoration: underline;
 }
+
+/* Move left column flush to the left */
+header {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Make name text smaller to fit image width */
+header h1 {
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+}
+
+/* Center and widen the right column */
+section {
+  width: 600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
