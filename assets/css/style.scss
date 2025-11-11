@@ -1,0 +1,31 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Make body text darker */
+body {
+  color: #222222;
+}
+
+/* Remove "Personal website" description text */
+header p {
+  display: none;
+}
+
+/* Make profile picture smaller */
+header img {
+  max-width: 150px !important;
+  width: 150px !important;
+}
+
+/* Change links to be underlined and black instead of blue */
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
