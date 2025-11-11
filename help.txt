@@ -10,3 +10,7 @@ To do:
     - Education
     - Resume
 - Figure out a system for structuring + automatically parsing from another file. This way, I can just record the information in one place and have it automatically populate the website.
+
+To see changes locally:
+- Run `bundle exec jekyll serve`
+- Navigate to localhost:4000
