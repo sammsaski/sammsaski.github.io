@@ -104,3 +104,21 @@ section {
   margin-right: auto !important;
   float: none !important;
 }
+
+/* Make headers slightly smaller */
+h1 {
+  font-size: 26px !important;
+}
+
+h2 {
+  font-size: 20px !important;
+}
+
+h3 {
+  font-size: 18px !important;
+}
+
+/* Reduce font weight of bold text */
+strong, b {
+  font-weight: 500 !important;
+}
