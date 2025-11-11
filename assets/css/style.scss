@@ -6,6 +6,13 @@
 /* Make body text darker */
 body {
   color: #222222;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+html {
+  height: 100%;
 }
 
 /* Remove "Personal website" description text */
@@ -15,8 +22,9 @@ header p {
 
 /* Make profile picture smaller */
 header img {
-  max-width: 150px !important;
-  width: 150px !important;
+  max-width: 120px !important;
+  width: 120px !important;
+  display: block !important;
 }
 
 /* Change links to be underlined and black instead of blue */
@@ -42,10 +50,17 @@ header {
   left: 0 !important;
 }
 
-/* Make name text smaller to fit image width */
+/* Make name text smaller and position below image */
 header h1 {
-  font-size: 18px !important;
+  font-size: 14px !important;
   line-height: 1.2 !important;
+  margin-top: 10px !important;
+  order: 2 !important;
+}
+
+header {
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 /* Remove link styling from name */
@@ -61,13 +76,14 @@ footer p:first-child {
   display: none !important;
 }
 
-/* Make footer text flush left */
+/* Make footer text flush left and stick to bottom */
 footer {
   text-align: left !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
   left: 20px !important;
   position: absolute !important;
+  bottom: 0 !important;
   width: 100% !important;
   float: none !important;
 }
