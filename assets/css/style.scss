@@ -122,3 +122,15 @@ h3 {
 strong, b {
   font-weight: 600 !important;
 }
+
+/* Publications list styling - align numbers to left, add spacing */
+ol[reversed] {
+  list-style-position: outside !important;
+  padding-left: 0 !important;
+  margin-left: 30px !important;
+}
+
+ol[reversed] li {
+  padding-left: 20px !important;
+  margin-bottom: 15px !important;
+}
