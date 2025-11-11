@@ -14,3 +14,8 @@ To do:
 To see changes locally:
 - Run `bundle exec jekyll serve`
 - Navigate to localhost:4000
+
+Development:
+A good strategy for development is to
+1. Open a new branch for changes
+2. Make the changes and serve the site locally to observe changes instantly
