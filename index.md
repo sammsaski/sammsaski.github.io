@@ -1,5 +1,5 @@
 # About
-I'm a third-year computer science Ph.D. student working under the advisory of Dr. Taylor T. Johnson in the VeriVITAL lab. I am primarily focused on developing new techniques in computer-aided verification for machine learning-based systems, thinking about what safety specifications make sense in the context of autonomous systems, and combining traditional computing with deep learning to create neurosymbolic techniques to improve efficiency, performance, and interpretability of neural network-based solutions.
+I'm a third-year computer science Ph.D. student working under the advisory of Dr. Taylor T. Johnson in the VeriVITAL lab. I am primarily focused on developing new techniques in computer-aided verification for machine learning-based systems, thinking about what safety specifications make sense in the context of autonomous systems, and combining ideas from classical computing with deep learning to create neurosymbolic techniques to improve efficiency, performance, and interpretability of neural network-based solutions.
 
 **Contact:** samuel.sasaki@vanderbilt.edu
 
