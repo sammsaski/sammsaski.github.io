@@ -65,6 +65,14 @@ footer p:first-child {
 footer {
   text-align: left !important;
   padding-left: 20px !important;
+  left: 0 !important;
+  position: relative !important;
+  width: auto !important;
+  float: none !important;
+}
+
+footer p {
+  text-align: left !important;
 }
 
 /* Center and widen the right column */
@@ -72,4 +80,5 @@ section {
   width: 550px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  float: none !important;
 }
